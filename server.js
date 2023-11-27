@@ -29,7 +29,7 @@ console.log(process.env["DB_HOST"])
 
 mongoose.connect(DB_HOST)
   .then(() => {
-    console.log('sucksex')
+    console.log('success')
     app.listen(3000, () => {
       console.log("Server running. Use our API on port: 3000")
     })
